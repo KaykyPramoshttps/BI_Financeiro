@@ -8,7 +8,7 @@ Mostrar Imagem Mostrar Imagem Mostrar Imagem
 
 O DASH Mini Financeiro tem como objetivo centralizar e apresentar os dados financeiros em um painel simples e objetivo, apoiando a tomada de decisão.
 
-✏️ Edite esta seção com 2 ou 3 linhas explicando o contexto: quem usa o painel, qual problema ele resolve e de onde vêm os dados.
+
 
 🖼️ Preview
 <!-- Salve um print do dashboard na pasta /images e ajuste o nome abaixo -->
@@ -38,13 +38,6 @@ DAX – medidas e cálculos
 Power Query (M) – tratamento e transformação dos dados
 Git/GitHub – versionamento
 
-🗂️ Fonte dos dados
-
-✏️ Descreva de onde vêm os dados (planilha Excel, CSV, banco de dados, dados fictícios etc.) e, se forem fictícios, deixe isso explícito.
-
-📐 Exemplos de medidas DAX
-
-✏️ Substitua pelos nomes reais de tabelas e colunas do seu modelo.
 
 dax
 Receita Total = SUM(Financeiro[Receita])
@@ -59,8 +52,10 @@ Margem % = DIVIDE([Resultado], [Receita Total], 0)
  Incluir metas e orçamento vs. realizado
  Criar página de fluxo de caixa
  Publicar no Power BI Service
-👤 Autor
 
-SEU NOME
+## 👤 Autor
 
-LinkedIn GitHub
+**Kayky Pramos**
+
+- GitHub: [@KaykyPramoshttps](https://github.com/KaykyPramoshttps)
+- LinkedIn: [Kayky Pereira Ramos](https://www.linkedin.com/in/kayky-pereira-ramos-180770274)
