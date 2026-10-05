@@ -1,0 +1,35 @@
+table Cliente
+	lineageTag: 11e661c1-c569-40f9-98cb-b8355d1b1b94
+
+	column 'Nome Cliente'
+		dataType: string
+		lineageTag: a2ffc431-58ad-41b8-85c5-4d871d71d54f
+		summarizeBy: none
+		sourceColumn: Nome Cliente
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Estado do Cliente'
+		dataType: string
+		lineageTag: 2734c1fb-97e9-404f-ab80-78700fad9289
+		summarizeBy: none
+		sourceColumn: Estado do Cliente
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Cliente = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\Millena\Downloads\BI_Financeiro_curso\Base de Dados\Clientes.xlsx"), null, true),
+				    Planilha1_Sheet = Fonte{[Item="Planilha1",Kind="Sheet"]}[Data],
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Planilha1_Sheet,{{"Column1", type text}, {"Column2", type text}}),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(#"Tipo Alterado", [PromoteAllScalars=true]),
+				    #"Tipo Alterado1" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"Nome Cliente", type text}, {"Estado do Cliente", type text}})
+				in
+				    #"Tipo Alterado1"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

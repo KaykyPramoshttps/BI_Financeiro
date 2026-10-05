@@ -1,0 +1,9 @@
+relationship 110fb18f-fd30-44de-9e8e-68f253f11230
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Movimentação.'Data da Movimentação'
+	toColumn: LocalDateTable_23030cad-9bb7-4a63-989d-88a82382d145.Date
+
+relationship 6696408c-77ca-5a41-09e4-f376694a8ec7
+	fromColumn: Movimentação.Cliente
+	toColumn: Cliente.'Nome Cliente'
+

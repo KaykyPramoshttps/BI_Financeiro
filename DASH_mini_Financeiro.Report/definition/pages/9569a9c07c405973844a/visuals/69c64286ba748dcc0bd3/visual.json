@@ -1,0 +1,270 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "69c64286ba748dcc0bd3",
+  "position": {
+    "x": 561.42857142857144,
+    "y": 684.28571428571433,
+    "z": 8,
+    "height": 327.14285714285717,
+    "width": 742.85714285714289
+  },
+  "visual": {
+    "visualType": "columnChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "PropertyVariationSource": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "Movimentação"
+                            }
+                          },
+                          "Name": "Variation",
+                          "Property": "Data da Movimentação"
+                        }
+                      },
+                      "Hierarchy": "Hierarquia de datas"
+                    }
+                  },
+                  "Level": "Ano"
+                }
+              },
+              "queryRef": "Movimentação.Data da Movimentação.Variation.Hierarquia de datas.Ano",
+              "nativeQueryRef": "Data da Movimentação Ano",
+              "active": true
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "PropertyVariationSource": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "Movimentação"
+                            }
+                          },
+                          "Name": "Variation",
+                          "Property": "Data da Movimentação"
+                        }
+                      },
+                      "Hierarchy": "Hierarquia de datas"
+                    }
+                  },
+                  "Level": "Mês"
+                }
+              },
+              "queryRef": "Movimentação.Data da Movimentação.Variation.Hierarquia de datas.Mês",
+              "nativeQueryRef": "Data da Movimentação Mês",
+              "active": true
+            }
+          ]
+        },
+        "Series": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Movimentação"
+                    }
+                  },
+                  "Property": "Tipo de Saída"
+                }
+              },
+              "queryRef": "Movimentação.Tipo de Saída",
+              "nativeQueryRef": "Tipo de Saída"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Movimentação"
+                    }
+                  },
+                  "Property": "soma de valor"
+                }
+              },
+              "queryRef": "Movimentação.soma de valor",
+              "nativeQueryRef": "Pagamentos",
+              "displayName": "Pagamentos"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "595e73b65feffdaa3270",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Movimentação"
+              }
+            },
+            "Property": "soma de valor"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "8a057fab4ba84dc22604",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "PropertyVariationSource": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "Movimentação"
+                      }
+                    },
+                    "Name": "Variation",
+                    "Property": "Data da Movimentação"
+                  }
+                },
+                "Hierarchy": "Hierarquia de datas"
+              }
+            },
+            "Level": "Ano"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "d523539abe4c75f3019c",
+        "field": {
+          "HierarchyLevel": {
+            "Expression": {
+              "Hierarchy": {
+                "Expression": {
+                  "PropertyVariationSource": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "Movimentação"
+                      }
+                    },
+                    "Name": "Variation",
+                    "Property": "Data da Movimentação"
+                  }
+                },
+                "Hierarchy": "Hierarquia de datas"
+              }
+            },
+            "Level": "Mês"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "0f94a2bd5322b2562cc6",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Movimentação"
+              }
+            },
+            "Property": "Tipo de Saída"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "3e14304e71424226e94f",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Movimentação"
+              }
+            },
+            "Property": "Natureza da Conta"
+          }
+        },
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "m",
+              "Entity": "Movimentação",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "m"
+                          }
+                        },
+                        "Property": "Natureza da Conta"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Custo'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Despesa'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User"
+      }
+    ]
+  }
+}

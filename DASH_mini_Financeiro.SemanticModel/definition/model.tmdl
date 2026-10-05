@@ -1,0 +1,22 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-BR
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["Movimentação","Cliente"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Movimentação
+ref table DateTableTemplate_a11479f7-4ec0-488d-a42a-094184e0b6fa
+ref table LocalDateTable_23030cad-9bb7-4a63-989d-88a82382d145
+ref table Cliente
+
+ref cultureInfo pt-BR
+

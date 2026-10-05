@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "DASH_mini_Financeiro"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "c059cf24-78b2-495a-a1a7-b4c6845446ce"
+  }
+}

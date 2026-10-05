@@ -1,0 +1,1852 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "movimentação": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentação"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "movimentação": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "movimentação.cliente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentação",
+			          "ConceptualProperty": "Cliente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "cliente": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "movimentação.valor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentação",
+			          "ConceptualProperty": "Valor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "courage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "bravery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "heroism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fearlessness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "boldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "gallantry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "lionheartedness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pluck": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "spirit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "nerve": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "movimentação.data_da_movimentação": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentação",
+			          "ConceptualProperty": "Data da Movimentação"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data da movimentação": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information da movimentação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact da movimentação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info da movimentação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic da movimentação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document da movimentação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure da movimentação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record da movimentação": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "movimentação.data_da_movimentação.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentação",
+			          "VariationSource": "Data da Movimentação",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "movimentação.data_da_movimentação.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentação",
+			          "VariationSource": "Data da Movimentação",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data da movimentação ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information da movimentação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact da movimentação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info da movimentação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic da movimentação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document da movimentação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure da movimentação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record da movimentação ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "movimentação.data_da_movimentação.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentação",
+			          "VariationSource": "Data da Movimentação",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data da movimentação trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information da movimentação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact da movimentação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info da movimentação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic da movimentação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document da movimentação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure da movimentação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record da movimentação trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "movimentação.data_da_movimentação.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentação",
+			          "VariationSource": "Data da Movimentação",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data da movimentação mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information da movimentação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact da movimentação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info da movimentação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic da movimentação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document da movimentação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure da movimentação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record da movimentação mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "movimentação.data_da_movimentação.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentação",
+			          "VariationSource": "Data da Movimentação",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data da movimentação dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information da movimentação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact da movimentação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info da movimentação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic da movimentação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document da movimentação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure da movimentação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record da movimentação dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "movimentação.conta_contábil": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentação",
+			          "ConceptualProperty": "Conta Contábil"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "conta contábil": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "movimentação.tipo_de_movimento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentação",
+			          "ConceptualProperty": "Tipo de Movimento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo de movimento": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "movimentação.natureza_da_conta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentação",
+			          "ConceptualProperty": "Natureza da Conta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "natureza da conta": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "movimentação.classe_operacional": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentação",
+			          "ConceptualProperty": "Classe Operacional"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "classe operacional": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "movimentação.tipo_de_saída": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentação",
+			          "ConceptualProperty": "Tipo de Saída"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo de saída": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "movimentação.valor_com_sinal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentação",
+			          "ConceptualProperty": "Valor com sinal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor com sinal": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "movimentação.soma_de_valor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentação",
+			          "ConceptualProperty": "soma de valor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "soma de valor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "soma de courage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "soma de bravery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "soma de heroism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "soma de fearlessness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "soma de boldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "soma de gallantry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "soma de lionheartedness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "soma de pluck": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "soma de spirit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "soma de nerve": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "Receita": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Pagamentos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "movimentação.lucro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Movimentação",
+			          "ConceptualProperty": "lucro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "lucro": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "cliente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Cliente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cliente": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "cliente.nome_cliente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Cliente",
+			          "ConceptualProperty": "Nome Cliente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome cliente": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "cliente.estado_do_cliente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Cliente",
+			          "ConceptualProperty": "Estado do Cliente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "estado do cliente": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "movimentação_data_da_movimentação_trimestre_has_movimentação_data_da_movimentação_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentação"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentação.data_da_movimentação.trimestre": {
+			          "Target": {
+			            "Entity": "movimentação.data_da_movimentação.trimestre"
+			          }
+			        },
+			        "movimentação.data_da_movimentação.mê": {
+			          "Target": {
+			            "Entity": "movimentação.data_da_movimentação.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentação.data_da_movimentação.trimestre"
+			            },
+			            "Object": {
+			              "Role": "movimentação.data_da_movimentação.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentação.data_da_movimentação.mê"
+			            },
+			            "Object": {
+			              "Role": "movimentação.data_da_movimentação.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "movimentação.data_da_movimentação.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "movimentação.data_da_movimentação.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "movimentação_data_da_movimentação_ano_has_movimentação_data_da_movimentação_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentação"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentação.data_da_movimentação.ano": {
+			          "Target": {
+			            "Entity": "movimentação.data_da_movimentação.ano"
+			          }
+			        },
+			        "movimentação.data_da_movimentação.trimestre": {
+			          "Target": {
+			            "Entity": "movimentação.data_da_movimentação.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentação.data_da_movimentação.ano"
+			            },
+			            "Object": {
+			              "Role": "movimentação.data_da_movimentação.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentação.data_da_movimentação.trimestre"
+			            },
+			            "Object": {
+			              "Role": "movimentação.data_da_movimentação.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "movimentação.data_da_movimentação.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "movimentação.data_da_movimentação.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos"
+			        }
+			      ]
+			    },
+			    "movimentação_data_da_movimentação_hierarquia_de_data_has_movimentação_data_da_movimentação_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentação"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentação.data_da_movimentação.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "movimentação.data_da_movimentação.hierarquia_de_data"
+			          }
+			        },
+			        "movimentação.data_da_movimentação.dia": {
+			          "Target": {
+			            "Entity": "movimentação.data_da_movimentação.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentação.data_da_movimentação.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "movimentação.data_da_movimentação.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias"
+			        }
+			      ]
+			    },
+			    "movimentação_data_da_movimentação_hierarquia_de_data_has_movimentação_data_da_movimentação_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentação"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentação.data_da_movimentação.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "movimentação.data_da_movimentação.hierarquia_de_data"
+			          }
+			        },
+			        "movimentação.data_da_movimentação.mê": {
+			          "Target": {
+			            "Entity": "movimentação.data_da_movimentação.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentação.data_da_movimentação.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "movimentação.data_da_movimentação.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê"
+			        }
+			      ]
+			    },
+			    "movimentação_data_da_movimentação_hierarquia_de_data_has_movimentação_data_da_movimentação_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentação"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentação.data_da_movimentação.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "movimentação.data_da_movimentação.hierarquia_de_data"
+			          }
+			        },
+			        "movimentação.data_da_movimentação.trimestre": {
+			          "Target": {
+			            "Entity": "movimentação.data_da_movimentação.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentação.data_da_movimentação.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "movimentação.data_da_movimentação.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres"
+			        }
+			      ]
+			    },
+			    "movimentação_data_da_movimentação_hierarquia_de_data_has_movimentação_data_da_movimentação_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentação"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentação.data_da_movimentação.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "movimentação.data_da_movimentação.hierarquia_de_data"
+			          }
+			        },
+			        "movimentação.data_da_movimentação.ano": {
+			          "Target": {
+			            "Entity": "movimentação.data_da_movimentação.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentação.data_da_movimentação.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "movimentação.data_da_movimentação.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos"
+			        }
+			      ]
+			    },
+			    "movimentação_data_da_movimentação_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentação"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentação.data_da_movimentação": {
+			          "Target": {
+			            "Entity": "movimentação.data_da_movimentação"
+			          }
+			        },
+			        "movimentação.data_da_movimentação.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "movimentação.data_da_movimentação.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentação.data_da_movimentação"
+			            },
+			            "Object": {
+			              "Role": "movimentação.data_da_movimentação.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_da_movimentaçãos_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "movimentação_has_cliente": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentação"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentação": {
+			          "Target": {
+			            "Entity": "movimentação"
+			          }
+			        },
+			        "cliente": {
+			          "Target": {
+			            "Entity": "cliente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentação"
+			            },
+			            "Object": {
+			              "Role": "cliente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movimentaçãos_have_clientes"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente"
+			            },
+			            "Object": {
+			              "Role": "movimentação"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "clientes_have_movimentaçãos"
+			        }
+			      ]
+			    },
+			    "cliente_has_estado_do_cliente": {
+			      "Binding": {
+			        "ConceptualEntity": "Cliente"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cliente": {
+			          "Target": {
+			            "Entity": "cliente"
+			          }
+			        },
+			        "cliente.estado_do_cliente": {
+			          "Target": {
+			            "Entity": "cliente.estado_do_cliente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente"
+			            },
+			            "Object": {
+			              "Role": "cliente.estado_do_cliente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "clientes_have_estado_do_clientes"
+			        }
+			      ]
+			    },
+			    "cliente_has_nome_cliente": {
+			      "Binding": {
+			        "ConceptualEntity": "Cliente"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cliente": {
+			          "Target": {
+			            "Entity": "cliente"
+			          }
+			        },
+			        "cliente.nome_cliente": {
+			          "Target": {
+			            "Entity": "cliente.nome_cliente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cliente"
+			            },
+			            "Object": {
+			              "Role": "cliente.nome_cliente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "clientes_have_nome_clientes"
+			        }
+			      ]
+			    },
+			    "movimentação_has_lucro": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentação"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentação": {
+			          "Target": {
+			            "Entity": "movimentação"
+			          }
+			        },
+			        "movimentação.lucro": {
+			          "Target": {
+			            "Entity": "movimentação.lucro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentação"
+			            },
+			            "Object": {
+			              "Role": "movimentação.lucro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movimentaçãos_have_lucro"
+			        }
+			      ]
+			    },
+			    "movimentação_has_soma_de_valor": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentação"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentação": {
+			          "Target": {
+			            "Entity": "movimentação"
+			          }
+			        },
+			        "movimentação.soma_de_valor": {
+			          "Target": {
+			            "Entity": "movimentação.soma_de_valor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentação"
+			            },
+			            "Object": {
+			              "Role": "movimentação.soma_de_valor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movimentaçãos_have_soma_de_valor"
+			        }
+			      ]
+			    },
+			    "movimentação_has_valor_com_sinal": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentação"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentação": {
+			          "Target": {
+			            "Entity": "movimentação"
+			          }
+			        },
+			        "movimentação.valor_com_sinal": {
+			          "Target": {
+			            "Entity": "movimentação.valor_com_sinal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentação"
+			            },
+			            "Object": {
+			              "Role": "movimentação.valor_com_sinal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movimentaçãos_have_valor_com_sinals"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "movimentação"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "movimentação.valor_com_sinal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "valor_com_sinal_indicates_how_expensive_movimentaçãos_are"
+			        }
+			      ]
+			    },
+			    "movimentação_has_tipo_de_saída": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentação"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentação": {
+			          "Target": {
+			            "Entity": "movimentação"
+			          }
+			        },
+			        "movimentação.tipo_de_saída": {
+			          "Target": {
+			            "Entity": "movimentação.tipo_de_saída"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentação"
+			            },
+			            "Object": {
+			              "Role": "movimentação.tipo_de_saída"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movimentaçãos_have_tipo_de_saídas"
+			        }
+			      ]
+			    },
+			    "movimentação_has_classe_operacional": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentação"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentação": {
+			          "Target": {
+			            "Entity": "movimentação"
+			          }
+			        },
+			        "movimentação.classe_operacional": {
+			          "Target": {
+			            "Entity": "movimentação.classe_operacional"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentação"
+			            },
+			            "Object": {
+			              "Role": "movimentação.classe_operacional"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movimentaçãos_have_classe_operacionals"
+			        }
+			      ]
+			    },
+			    "movimentação_has_natureza_da_conta": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentação"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentação": {
+			          "Target": {
+			            "Entity": "movimentação"
+			          }
+			        },
+			        "movimentação.natureza_da_conta": {
+			          "Target": {
+			            "Entity": "movimentação.natureza_da_conta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentação"
+			            },
+			            "Object": {
+			              "Role": "movimentação.natureza_da_conta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movimentaçãos_have_natureza_da_contas"
+			        }
+			      ]
+			    },
+			    "movimentação_has_tipo_de_movimento": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentação"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentação": {
+			          "Target": {
+			            "Entity": "movimentação"
+			          }
+			        },
+			        "movimentação.tipo_de_movimento": {
+			          "Target": {
+			            "Entity": "movimentação.tipo_de_movimento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentação"
+			            },
+			            "Object": {
+			              "Role": "movimentação.tipo_de_movimento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movimentaçãos_have_tipo_de_movimentos"
+			        }
+			      ]
+			    },
+			    "movimentação_has_conta_contábil": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentação"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentação": {
+			          "Target": {
+			            "Entity": "movimentação"
+			          }
+			        },
+			        "movimentação.conta_contábil": {
+			          "Target": {
+			            "Entity": "movimentação.conta_contábil"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentação"
+			            },
+			            "Object": {
+			              "Role": "movimentação.conta_contábil"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movimentaçãos_have_conta_contábils"
+			        }
+			      ]
+			    },
+			    "movimentação_has_data_da_movimentação": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentação"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentação": {
+			          "Target": {
+			            "Entity": "movimentação"
+			          }
+			        },
+			        "movimentação.data_da_movimentação": {
+			          "Target": {
+			            "Entity": "movimentação.data_da_movimentação"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentação"
+			            },
+			            "Object": {
+			              "Role": "movimentação.data_da_movimentação"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movimentaçãos_have_data_da_movimentaçãos"
+			        }
+			      ]
+			    },
+			    "movimentação_has_valor": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentação"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentação": {
+			          "Target": {
+			            "Entity": "movimentação"
+			          }
+			        },
+			        "movimentação.valor": {
+			          "Target": {
+			            "Entity": "movimentação.valor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentação"
+			            },
+			            "Object": {
+			              "Role": "movimentação.valor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "movimentaçãos_have_valor"
+			        }
+			      ]
+			    },
+			    "movimentação_data_da_movimentação_mê_has_movimentação_data_da_movimentação_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Movimentação"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "movimentação.data_da_movimentação.mê": {
+			          "Target": {
+			            "Entity": "movimentação.data_da_movimentação.mê"
+			          }
+			        },
+			        "movimentação.data_da_movimentação.dia": {
+			          "Target": {
+			            "Entity": "movimentação.data_da_movimentação.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentação.data_da_movimentação.mê"
+			            },
+			            "Object": {
+			              "Role": "movimentação.data_da_movimentação.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "movimentação.data_da_movimentação.dia"
+			            },
+			            "Object": {
+			              "Role": "movimentação.data_da_movimentação.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "movimentação.data_da_movimentação.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "movimentação.data_da_movimentação.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+
